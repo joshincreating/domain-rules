@@ -1,0 +1,71 @@
+    #custom-proxy-rules
+    #coze海外版
+    - DOMAIN-SUFFIX,coze.com,Choice
+    - DOMAIN-SUFFIX,tiktokv.com,Choice
+    - DOMAIN,www.coze.com,Choice
+    - DOMAIN,vcs-va.tiktokv.com,Choice
+    - DOMAIN,mcs-va.coze.com,Choice
+    - DOMAIN,survey.coze.com,Choice
+    - DOMAIN,mon.tiktokv.com,Choice
+    - DOMAIN,opt-i18n.coze.com,Choice
+    - DOMAIN,mssdk-i18n-sg.coze.com,Choice
+    - DOMAIN,mssdk-i18n-va.coze.com,Choice
+    - DOMAIN,mcs-sg.coze.com,Choice
+    - DOMAIN,lf16-alice-tos-sign.oceanapi-i18n.com,Choice
+    #Temu
+    - DOMAIN-SUFFIX,temu.com,Choice
+    - DOMAIN-SUFFIX,kwcdn.com,Choice
+    - DOMAIN,img.kwcdn.com,Choice
+    - DOMAIN,avatar-us.kwcdn.com,Choice
+    - DOMAIN,goods-vod.kwcdn.com,Choice
+    - DOMAIN,static.kwcdn.com,Choice
+    #tiktok
+    - DOMAIN-SUFFIX,tiktokcdn-us.com,Choice
+    - DOMAIN-SUFFIX,tiktokcdn.com,Choice
+    - DOMAIN-SUFFIX,tiktok.com,Choice
+    - DOMAIN-SUFFIX,tiktokw.us,Choice
+    - DOMAIN-SUFFIX,tiktokv.us,Choice
+    - DOMAIN-SUFFIX,us.tiktokv.com,Choice
+    - DOMAIN-SUFFIX,us.tiktok.com,Choice
+    #openai/ChatGPT
+    - DOMAIN-SUFFIX,stripe.com,Choice
+    - DOMAIN-SUFFIX,sentry.io,Choice
+    - DOMAIN-SUFFIX,openaiapi-site.azureedge.nrt,Choice
+    - DOMAIN-SUFFIX,openai.com,Choice
+    - DOMAIN-SUFFIX,oaiusercontent.com,Choice
+    - DOMAIN-SUFFIX,oaistatic.com,Choice
+    - DOMAIN-SUFFIX,intercomcdn.com,Choice
+    - DOMAIN-SUFFIX,intercom.io,Choice
+    - DOMAIN-SUFFIX,identrust.com,Choice
+    - DOMAIN-SUFFIX,featuregates.org,Choice
+    - DOMAIN-SUFFIX,events.statsigapi.net,Choice
+    - DOMAIN-SUFFIX,client-api.arkoselabs.com,Choice
+    - DOMAIN-SUFFIX,challenges.cloudflare.com,Choice
+    - DOMAIN-KEYWORD,openai,Choice
+
+    #porn/jav 屏蔽
+    # 完全匹配的域名
+    - DOMAIN,pornhub.com,REJECT
+    - DOMAIN,xvideos.com,REJECT
+    - DOMAIN,xhamster.com,REJECT
+    - DOMAIN,xnxx.com,REJECT
+    - DOMAIN,spankbang.com,REJECT
+    - DOMAIN,xchina.co,REJECT
+    - DOMAIN,theporndude.com,REJECT
+    # 匹配包含关键字的域名
+    - DOMAIN-KEYWORD,porn,REJECT
+    - DOMAIN-KEYWORD,jav,REJECT
+    - DOMAIN-KEYWORD,xvideos,REJECT
+    - DOMAIN-KEYWORD,xhamster,REJECT
+    - DOMAIN-KEYWORD,xnxx,REJECT
+    - DOMAIN-KEYWORD,spankbang,REJECT
+    - DOMAIN-KEYWORD,xchina,REJECT
+    - DOMAIN-KEYWORD,theporndude,REJECT
+    # 匹配特定域名后缀
+    - DOMAIN-SUFFIX,pornhub.com,REJECT
+    - DOMAIN-SUFFIX,xvideos.com,REJECT
+    - DOMAIN-SUFFIX,xhamster.com,REJECT
+    - DOMAIN-SUFFIX,xnxx.com,REJECT
+    - DOMAIN-SUFFIX,spankbang.com,REJECT
+    - DOMAIN-SUFFIX,xchina.co,REJECT
+    - DOMAIN-SUFFIX,theporndude.com,REJECT
